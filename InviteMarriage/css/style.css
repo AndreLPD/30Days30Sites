@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url("../img/couple2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+    position: relative;
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0; 
+    left: 0;
+}
+#header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+#header nav li{
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    margin: 30px 50px;
+}
+#header nav a{
+    color: #FFD700;
+    font-size: 18px;
+    font-weight: 700;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+#main h1{
+    color: #FFD700;
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 4px 4px 4px black;
+    opacity: 0.6;
+}
+#main p{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-weight: 200;
+    opacity: 0.7;
+}
+#footer{
+    background: transparent;
+    /*background-color: #1e1e1f;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#footer #info,#socials{
+    margin: 25px 50px;
+}
+#footer a{
+    font-family: 'Lato', sans-serif;
+    color: #FFD700;
+    margin-right:25px; 
+}
