@@ -1,19 +1,44 @@
+/* RESET */
+/*Reset da página*/
 *{
     margin: 0;
     padding: 0;
+    font-size: 100%;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
+nav,ul{
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 div#header{
-    background-image: url(../img/beach-ge8ff95b8b_1920.jpg);
-    height: 100%;
+    width: 100%; 
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 1em;
 }
 div#header label{
-    font-size: 50px;
+    font-size: 1rem;
 }
 div#header a{
+}
+
+
+#places .description-places{
+    display: flex;
+}
+
+#places h1{
+
+}
+
+#places a{
+
+}
+
+#places{
+
 }
