@@ -7,27 +7,38 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
-nav,ul{
-    text-decoration: none;  
+nav,li{
+    text-decoration: none;
+    list-style: none;  
 }
 a{
     text-decoration: none;
     cursor: pointer;
 }
 
+/*Header*/
 div#header{
-    width: 100%; 
+    width: 100%;
+    min-height: 20vh; 
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 div#header label{
     font-size: 1rem;
 }
-div#header a{
-}
 
+div#header nav{
+    display: flex;
+    flex-direction: row;
+}
+div#places{
+    min-height: 100vh;
+}
 div#places .title{
     width: 100%;
-    min-height: 7rem;
+    min-height: 20vh;
     display: flex;
     /*alinha horizontal*/
     align-items: center;
@@ -36,6 +47,16 @@ div#places .title{
 
 div#places .description-places{
     display: flex;
+    flex-direction: column;
+}
+
+div#places #places-desc{
+    display: flex;
+    flex-direction: row;
+}
+div#places .places-desc img{
+    width: 200px;
+    height: 200px;
 }
 
 #places h1{
